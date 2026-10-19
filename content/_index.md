@@ -4,24 +4,44 @@ menu = "main"
 weight = 1
 +++
 
-# A match made in heaven
+# Jaringan Komputer — Kelompok 4
 
-There is a website obesity crisis. Bloated websites full of scripts, ads, and trackers are slowing your readers down every time they try to read your well-crafted content.
+Selamat datang di blog Kelompok 4! 👋
 
-Hugo Bear Blog is all you need to build a fantastic and optimized site or blog. It works perfectly on **any** viewing device. All you need to focus on is writing good content.
+Blog ini merupakan media pembelajaran dan dokumentasi tugas mata kuliah **Jaringan Komputer**. Di sini, kami membahas berbagai konsep dasar jaringan, teknologi komunikasi data, perangkat jaringan, hingga penerapan jaringan komputer dalam kehidupan sehari-hari.
 
-[Go to the original bear blog](https://bearblog.dev/).
-
----
-
-What happens when you combine the worlds' fastest, most lightweight static site generator with a design theme built to provide you with free, no-nonsense, super-fast blogging capabilities?
-
-**Use this theme, and find out!**
-
-Made with 💟 by [Jan Raasch](https://www.janraasch.com).
+Tujuan kami adalah menyajikan materi jaringan komputer dengan bahasa yang mudah dipahami, terstruktur, dan relevan dengan perkembangan teknologi saat ini.
 
 ---
 
-Simply publish content online, grow an audience, and keep your pages tiny, fast, and **optimized for search engines**.
+## Apa yang Kami Pelajari?
 
-Each page is ~5kb, and you can **host your blog yourself**.
+### 🌐 Dasar-Dasar Jaringan Komputer
+
+Mengenal pengertian jaringan komputer, jenis-jenis jaringan seperti LAN, MAN, dan WAN, serta manfaatnya dalam pertukaran informasi.
+
+### 🔌 Perangkat dan Topologi Jaringan
+
+Mempelajari fungsi perangkat jaringan seperti router, switch, hub, dan access point, serta berbagai bentuk topologi jaringan.
+
+### 📡 Protokol dan Model Jaringan
+
+Membahas TCP/IP, model OSI, pengalamatan IP, DNS, DHCP, dan protokol yang memungkinkan perangkat saling berkomunikasi.
+
+### 🛠️ Implementasi dan Praktik
+
+Mendokumentasikan hasil diskusi, praktikum, konfigurasi jaringan, serta studi kasus yang berkaitan dengan materi perkuliahan.
+
+---
+
+## Tentang Blog Ini
+
+Blog ini dibuat sebagai bagian dari tugas mata kuliah Jaringan Komputer. Seluruh artikel disusun untuk mendukung proses pembelajaran, berbagi pengetahuan, dan mendokumentasikan hasil kerja kelompok.
+
+Kami berharap blog ini dapat menjadi referensi belajar yang bermanfaat bagi mahasiswa yang ingin memahami dasar-dasar jaringan komputer.
+
+---
+
+**Kelompok 4 · Mata Kuliah Jaringan Komputer**
+
+*Belajar terhubung, memahami jaringan, membangun pengetahuan.*
