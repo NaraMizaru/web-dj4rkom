@@ -84,3 +84,15 @@ Dengan mengaktifkan DoH di browser (misalnya menggunakan DNS Cloudflare `1.1.1.1
 ## Nahh Kesimpulan nya itu
 
 DNS itu kayak seorang pahlawan tanpa tanda jasa di dunia jaringan komputer. Tanpa DNS, internet tidak akan sesimpel dan senyaman yang kita nikmati hari ini. Menganalisis cara kerja DNS memberi kita gambaran jelas bahwa di balik satu klik sederhana, ada koordinasi sistem terdistribusi yang sangat masif dan cepat.
+
+---
+
+## Referensi
+
+1. Ali, B., & Chen, G. (2025). Next-generation AI for advanced threat detection and security enhancement in DNS over HTTPS. *Journal of Network and Computer Applications, 235*, 104326. https://doi.org/10.1016/j.jnca.2025.104326
+
+2. Kim, M., et al. (2024). Measuring DNS-over-HTTPS Downgrades: Prevalence, Techniques, and Bypass Strategies. *Proceedings of the ACM on Networking, 2*(CoNEXT4), 1–22. https://doi.org/10.1145/3696385
+
+3. National Institute of Standards and Technology. (2026). *Secure Domain Name System (DNS) Deployment Guide* (NIST SP 800-81r3). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.800-81r3
+
+4. Park, J. S., Kim, H. C., & Lee, K. H. (2022). In-Depth Evaluation of the Impact of National-Level DNS Filtering on DNS Resolvers over Space and Time. *Electronics, 11*(8), 1276. https://doi.org/10.3390/electronics11081276
