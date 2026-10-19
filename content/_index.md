@@ -1,5 +1,5 @@
 +++
-title = "Home"
+title = "Beranda"
 menu = "main"
 weight = 1
 +++
