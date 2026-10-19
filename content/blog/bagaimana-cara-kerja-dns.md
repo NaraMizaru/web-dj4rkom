@@ -10,7 +10,7 @@ date = "2026-10-19T10:25:04+07:00"
 tags = ["Jaringan Komputer", "DNS", "Keamanan Jaringan", "Internet", "DNS over HTTPS"]
 +++
 
-Pernah gak sih kalian mengetik `google.com` di browser, terus dalam hitungan milidetik halamannya langsung terbuka? Atau pernah gak kalian mau membuka suatu situs, tapi yang muncul malah halaman **"Internet Positif"** atau pesan *DNS_PROBE_FINISHED_NXDOMAIN*?
+Pernah gak sih kalian mengetik `google.com` di browser, terus dalam hitungan milidetik halamannya langsung terbuka? Atau pernah gak kalian mau membuka suatu situs, tapi yang muncul malah halaman **"Internet Positif"** atau pesan `DNS_PROBE_FINISHED_NXDOMAIN`?
 
 Sebagai manusia, kita sangat mudah mengingat nama seperti `instagram.com` atau `youtube.com`. Tapi tahukah kamu? Komputer dan perangkat jaringan sama sekali **tidak paham** nama-nama tersebut. Komputer hanya mengerti angka-angka yang disebut **IP Address** (seperti `142.250.198.46`).
 
