@@ -69,9 +69,10 @@ Akibatnya, browser-mu malah diarahkan ke halaman pemblokiran, bukan ke situs asl
 
 ## **Solusi & Keamanan: DoH dan DoT**
 
-Secara default, permintaan DNS yang konvensional dikirimkan tanpa enkripsi (teks biasa) melalui port UDP 53, sebuah protokol yang cepat dan efisien untuk pengiriman data tanpa adanya protokol verifikasi awal. Ketidakadaan perlindungan ini menyebabkan dua risiko yang signifikan: \
-1. **Pengintipan (Eavesdropping)**: Penyedia layanan internet atau individu lain di jaringan dapat mengawasi situs yang sedang kamu akses.\
-2. **Penyamaran** **DNS (DNS Spoofing)** : Pihak ketiga yang berada di jalur koneksi dapat menangkap dan memodifikasi respons DNS untuk mengarahkanmu ke situs palsu.
+Secara default, permintaan DNS yang konvensional dikirimkan tanpa enkripsi (teks biasa) melalui port UDP 53, sebuah protokol yang cepat dan efisien untuk pengiriman data tanpa adanya protokol verifikasi awal. Ketidakadaan perlindungan ini menyebabkan dua risiko yang signifikan:
+
+1. **Pengintipan (Eavesdropping):** Penyedia layanan internet atau individu lain di jaringan dapat mengawasi situs yang sedang kamu akses.
+2. **DNS Spoofing:** Pihak ketiga yang berada di jalur koneksi dapat menangkap dan memodifikasi respons DNS untuk mengarahkanmu ke situs palsu.
 
 Untuk mengatasi masalah ini, lahir teknologi enkripsi DNS:
 
@@ -81,7 +82,7 @@ Untuk mengatasi masalah ini, lahir teknologi enkripsi DNS:
 
 Dengan mengaktifkan DoH di browser (misalnya menggunakan DNS Cloudflare `1.1.1.1` atau AdGuard), query DNS kamu akan terenkripsi sehingga lebih aman dari pengintaian dan manipulasi lalulintas data sederhana.
 
-## Nahh Kesimpulan nya itu
+## Kesimpulan
 
 DNS itu kayak seorang pahlawan tanpa tanda jasa di dunia jaringan komputer. Tanpa DNS, internet tidak akan sesimpel dan senyaman yang kita nikmati hari ini. Menganalisis cara kerja DNS memberi kita gambaran jelas bahwa di balik satu klik sederhana, ada koordinasi sistem terdistribusi yang sangat masif dan cepat.
 

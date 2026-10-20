@@ -4,24 +4,20 @@ menu = "main"
 weight = 1
 +++
 
-# Jaringan Komputer — Kelompok 4
+Selamat datang di **Dj4rkom**! 👋
 
-Selamat datang di blog Kelompok 4! 👋
+Dj4rkom adalah blog yang membahas dunia jaringan komputer — dari konsep dasar hingga teknologi terkini — dengan bahasa yang santai dan mudah dipahami.
 
-Blog ini merupakan media pembelajaran dan dokumentasi tugas mata kuliah **Jaringan Komputer**. Di sini, kami membahas berbagai konsep dasar jaringan, teknologi komunikasi data, perangkat jaringan, hingga penerapan jaringan komputer dalam kehidupan sehari-hari.
-
-Tujuan kami adalah menyajikan materi jaringan komputer dengan bahasa yang mudah dipahami, terstruktur, dan relevan dengan perkembangan teknologi saat ini.
+Di sini kamu bisa menemukan artikel tentang cara kerja internet, protokol jaringan, keamanan data, dan banyak hal menarik lainnya seputar dunia networking.
 
 ---
 
 ## Tentang Blog Ini
 
-Blog ini dibuat sebagai bagian dari tugas mata kuliah Jaringan Komputer. Seluruh artikel disusun untuk mendukung proses pembelajaran, berbagi pengetahuan, dan mendokumentasikan hasil kerja kelompok.
+Dj4rkom hadir untuk siapa saja yang penasaran dengan cara kerja jaringan komputer di balik layar. Mulai dari *"kok bisa sih kita browsing dengan cepat?"* sampai *"kenapa website bisa diblokir?"* — semua dibahas di sini.
 
-Kami berharap blog ini dapat menjadi referensi belajar yang bermanfaat bagi mahasiswa yang ingin memahami dasar-dasar jaringan komputer.
+Artikel-artikel disajikan dengan pendekatan yang praktis dan relevan, cocok untuk pemula maupun yang ingin memperdalam pemahamannya.
 
 ---
-
-**Kelompok 4 · Mata Kuliah Jaringan Komputer**
 
 *Belajar terhubung, memahami jaringan, membangun pengetahuan.*

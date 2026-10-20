@@ -1,35 +1,25 @@
 +++
-title = "Anggota"
+title = "Penulis"
 menu = "main"
 weight = 2
 +++
 
-Kelompok 4 merupakan kelompok mahasiswa yang bekerja sama dalam mempelajari dan mendokumentasikan materi mata kuliah **Jaringan Komputer**.
-
-Halaman ini berisi daftar anggota yang berkontribusi dalam penyusunan materi dan pengembangan blog pembelajaran ini.
+Dj4rkom ditulis dan dikelola oleh sekelompok orang yang sama-sama tertarik dengan dunia jaringan komputer dan teknologi internet.
 
 ---
 
-## Daftar Anggota
+## Tim Penulis
 
-| No. | Nama | NIM |
-|:---:|---|:---:|
-| 1 | Fairuz Muhammad Raffa Firdaus | 15250051 |
-| 2 | Muhamad Hilal | 15250100 |
-| 3 | Gladisya Harumi Negeri | 15250352 |
-| 4 | Rifqi Maulana Ramdhan | 15250756 |
-| 5 | Fathir Mananzil | 15251165 |
-
----
-
-## Kolaborasi Kelompok
-
-Setiap anggota berperan dalam mendukung proses pembelajaran, mulai dari mencari referensi, memahami konsep jaringan komputer, hingga menyusun dan mendokumentasikan materi ke dalam blog ini.
-
-Melalui kolaborasi ini, kami berharap dapat memperluas pemahaman mengenai jaringan komputer sekaligus meningkatkan kemampuan bekerja sama dalam menyelesaikan tugas akademik.
+| Nama |
+|---|
+| Fairuz Muhammad Raffa Firdaus |
+| Muhamad Hilal |
+| Gladisya Harumi Negeri |
+| Rifqi Maulana Ramdhan |
+| Fathir Mananzil |
 
 ---
 
-**Kelompok 4 · Mata Kuliah Jaringan Komputer**
+Kami percaya bahwa topik jaringan komputer — yang sering dianggap rumit — sebenarnya bisa dijelaskan dengan cara yang menyenangkan dan mudah dipahami. Itulah semangat yang mendorong kami membuat blog ini.
 
 *Belajar terhubung, memahami jaringan, membangun pengetahuan.*
