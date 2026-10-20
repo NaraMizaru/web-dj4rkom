@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="container" style="padding-top: 3rem; padding-bottom: 5rem;">
+  <!-- Header -->
+  <div style="text-align: center; margin-bottom: 3.5rem;">
+    {{ if .Data.Singular }}
+      <div class="hero-badge">
+        <span>Filter Topik</span>
+      </div>
+      <h1 class="section-title" style="font-size: 2.5rem; margin-bottom: 0.5rem;">
+        Topik: <mark class="neubrutal-highlight">#{{ .Title }}</mark>
+      </h1>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+        Menampilkan semua artikel yang berkaitan dengan <strong>#{{ .Title }}</strong>
+      </p>
+      <a href="{{ "blog" | relURL }}" class="btn btn-secondary" style="font-size: 0.85rem; padding: 0.4rem 1rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+        <svg class="lucide lucide-x" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+        <span>Hapus Filter</span>
+      </a>
+    {{ else }}
+      <div class="hero-badge">
+        <span>Arsip & Publikasi</span>
+      </div>
+      <h1 class="section-title" style="font-size: 2.5rem; margin-bottom: 0.5rem;">
+        {{ .Title | default "Daftar Artikel" }}
+      </h1>
+      <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">
+        Kumpulan riset, tutorial, dan catatan seputar dunia jaringan komputer dan teknologi internet.
+      </p>
+    {{ end }}
+  </div>
+
+  <!-- Posts Grid -->
+  <div class="posts-grid">
+    {{ range .Pages }}
+      {{ partial "post-card.html" . }}
+    {{ else }}
+      <div style="grid-column: 1 / -1; text-align: center; padding: 4rem 1rem; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg);">
+        <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 1rem;">Belum ada artikel pada kategori ini.</p>
+        <a href="{{ "blog" | relURL }}" class="btn btn-primary">Kembali ke Blog</a>
+      </div>
+    {{ end }}
+  </div>
+
+  <!-- Tag Cloud if not singular -->
+  {{ if not .Data.Singular }}
+    {{ if site.Taxonomies.tags }}
+    <div style="margin-top: 4rem; padding: 2rem; background: var(--bg-surface); border: var(--border-width) solid var(--border-color); border-radius: var(--radius-lg); box-shadow: var(--shadow-brutal);">
+      <h3 style="margin-top:0; margin-bottom: 1rem; font-size: 1.2rem;">Jelajahi Tag Populer:</h3>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.6rem;">
+        {{ range site.Taxonomies.tags }}
+        <a href="{{ .Page.Permalink }}" class="tag-badge" style="font-size: 0.85rem;">
+          #{{ .Page.Title }} <span style="opacity: 0.7;">({{ .Count }})</span>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

@@ -4,22 +4,14 @@ menu = "main"
 weight = 2
 +++
 
-Dj4rkom ditulis dan dikelola oleh sekelompok orang yang sama-sama tertarik dengan dunia jaringan komputer dan teknologi internet.
+Dj4rkom ditulis dan dikelola bersama oleh para praktisi dan penggiat teknologi yang berdedikasi mendalami dunia jaringan komputer, infrastruktur internet, dan keamanan siber.
+
+### Visi & Pendekatan
+
+Kami percaya bahwa topik jaringan komputer — yang sering dianggap rumit dan penuh jargon — sebenarnya bisa dijelaskan dengan cara yang visual, menyenangkan, dan mudah dipahami oleh siapa saja, mulai dari pemula hingga sesama rekan teknis.
+
+Melalui artikel-artikel di blog ini, kami berusaha menyajikan konsep fundamental hingga teknologi mutakhir dengan pendekatan studi kasus praktis dan bahasa yang santai.
 
 ---
 
-## Tim Penulis
-
-| Nama |
-|---|
-| Fairuz Muhammad Raffa Firdaus |
-| Muhamad Hilal |
-| Gladisya Harumi Negeri |
-| Rifqi Maulana Ramdhan |
-| Fathir Mananzil |
-
----
-
-Kami percaya bahwa topik jaringan komputer — yang sering dianggap rumit — sebenarnya bisa dijelaskan dengan cara yang menyenangkan dan mudah dipahami. Itulah semangat yang mendorong kami membuat blog ini.
-
-*Belajar terhubung, memahami jaringan, membangun pengetahuan.*
+> *Belajar terhubung, memahami jaringan, membangun pengetahuan.*

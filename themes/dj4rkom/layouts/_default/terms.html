@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="container" style="padding-top: 3.5rem; padding-bottom: 5rem; text-align: center;">
+  <div class="hero-badge">
+    <span>Eksplorasi Topik</span>
+  </div>
+  <h1 class="section-title" style="font-size: 2.8rem; margin-bottom: 0.8rem;">
+    Semua <mark class="neubrutal-highlight">Topik & Tags</mark>
+  </h1>
+  <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 3rem;">
+    Temukan artikel dan panduan jaringan komputer yang dikelompokkan berdasarkan topik spesifik.
+  </p>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; max-width: 800px; margin: 0 auto;">
+    {{ range .Data.Terms }}
+    <a href="{{ .Page.Permalink }}" class="tag-badge" style="font-size: 1rem; padding: 0.6rem 1.4rem;">
+      #{{ .Page.Title }}
+      <span style="opacity: 0.75; font-size: 0.85rem; margin-left: 0.35rem; background: rgba(0,0,0,0.15); padding: 0.15rem 0.5rem; border-radius: var(--radius-full);">
+        {{ .Count }} artikel
+      </span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

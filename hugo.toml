@@ -1,66 +1,42 @@
 # Base URL used when generating links to your pages
-# Set to the URL for your site
 baseURL = 'https://web-dj4rkom.pages.dev'
 
-# The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
+# Modern custom theme for Dj4rkom
+theme = 'dj4rkom'
 
-# Basic metadata configuration for your blog.
-title = "Web - Dj4rkom"
-author = "Muhamad Hilal"
-copyright = "Copyright © 2026, Kelompok Dj4rkom - UBSI Sukabumi."
+# Basic metadata configuration for your blog
+title = "Dj4rkom"
+author = "Tim Dj4rkom"
+copyright = "Copyright © 2026 Dj4rkom. All rights reserved."
 locale = "id-ID"
 
-# Generate a nice robots.txt for SEO
+# Enable robots.txt generation
 enableRobotsTXT = true
 
-# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
+# Permalinks configuration
 [permalinks]
   blog = "/blog/:slug/"
-  tags = "/tags/:slug"
+  tags = "/tags/:slug/"
+
+# Enable JSON output on home page for live search index
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [params]
-  # The "description" of your website. This is used in the meta data of your generated html.
-  description = "Website Kelompok Dj4rkom - UBSI Sukabumi."
-
-  # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-  # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
+  description = "Blog dan publikasi teknologi seputar jaringan komputer, protokol internet, dan keamanan siber."
   favicon = "images/favicon.png"
+  images = ["images/4-langkah-bagaimana-cara-dns-bekerja-1.jpg"]
+  title = "Dj4rkom"
+  author = "Tim Dj4rkom"
+  dateFormat = "02 Jan 2006"
 
-  # These "images" are used for the structured data templates. This will show up, when
-  # services like Twitter or Slack want to generate a preview of a link to your site.
-  # See https://gohugo.io/templates/internal#twitter-cards and
-  # https://gohugo.io/templates/internal#open-graph.
-  images = ["images/share.png"]
-
-  # Another "title" :-). This one is used as the site_name on the Hugo's internal
-  # opengraph structured data template.
-  # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-  title = "Web - Dj4rkom"
-
-  # This theme will, by default, inject a made-with-line at the bottom of the page.
-  # You can turn it off, but we would really appreciate if you don’t :-).
-  # hideMadeWithLine = true
-
-  # By default, if you want to read more than one blog post you have to always go
-  # back to the /blog page.
-  # By enabling this feature each blog post will have at the end a navigator
-  # enablePostNavigator = true
-
-  # By default, this theme displays dates with a format like "02 Jan, 2006", but
-  # you can customize it by setting the `dateFormat` param in your site's config
-  # file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
-  # for details. An example TOML config that uses [ISO
-  # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
-  dateFormat = "01 Jan, 2006"
-
-# Configure markup highlighter to match "Bearblog" aesthetics, see
-# https://gohugo.io/configuration/markup/#highlight
+# Markup and Syntax Highlighting
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
-    style = 'friendly'
-    lineNos = true
+    style = 'dracula'
+    lineNos = false
     lineNumbersInTable = false
     codeFences = true
+    guessSyntax = true

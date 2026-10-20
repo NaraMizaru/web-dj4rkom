@@ -1,0 +1,12 @@
+[theme]
+name = "dj4rkom"
+description = "A modern, bold, and ultra-fast Neubrutalism tech blog theme for Dj4rkom"
+license = "MIT"
+licenselink = "https://github.com/NaraMizaru/blog-j4rkom/blob/main/LICENSE"
+tags = ["blog", "responsive", "dark-mode", "modern", "neubrutalism", "networking"]
+features = ["dark-mode", "search", "reading-time", "syntax-highlighting", "share-buttons", "toc"]
+min_version = "0.110.0"
+
+[author]
+name = "Dj4rkom Team"
+homepage = "https://web-dj4rkom.pages.dev"

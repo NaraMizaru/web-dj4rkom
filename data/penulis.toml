@@ -1,0 +1,32 @@
+# Data Penulis & Kontributor Dj4rkom
+# Anda dapat menambah, mengubah, atau menghapus anggota tim di file ini.
+
+[[anggota]]
+nama = "Fairuz Muhammad Raffa Firdaus"
+inisial = "FM"
+peran = "Network Security"
+deskripsi = "Protokol Keamanan & Enkripsi"
+
+[[anggota]]
+nama = "Muhamad Hilal"
+inisial = "MH"
+peran = "Infrastructure Lead"
+deskripsi = "Core Engineering & Web"
+
+[[anggota]]
+nama = "Gladisya Harumi Negeri"
+inisial = "GH"
+peran = "Technical Content"
+deskripsi = "Riset & Analisis Jaringan"
+
+[[anggota]]
+nama = "Rifqi Maulana Ramdhan"
+inisial = "RM"
+peran = "Network Architecture"
+deskripsi = "Routing & Pengalamatan IP"
+
+[[anggota]]
+nama = "Fathir Mananzil"
+inisial = "FM"
+peran = "Systems & DNS"
+deskripsi = "Resolver & Server Ops"

@@ -4,7 +4,7 @@ menu = "main"
 weight = 1
 +++
 
-Selamat datang di **Dj4rkom**! 👋
+Selamat datang di **Dj4rkom**!
 
 Dj4rkom adalah blog yang membahas dunia jaringan komputer — dari konsep dasar hingga teknologi terkini — dengan bahasa yang santai dan mudah dipahami.
 

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.Language.Locale }}{{ . }}{{ else }}id-ID{{ end }}" data-theme="light">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <!-- Reading Progress Bar (Single articles) -->
+  <div id="reading-progress"></div>
+
+  <!-- Site Header -->
+  {{ partial "header.html" . }}
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <!-- Site Footer -->
+  {{ partial "footer.html" . }}
+
+  <!-- Search Modal -->
+  {{ partial "search-modal.html" . }}
+
+  <!-- Global Script -->
+  <script src="{{ "js/main.js" | relURL }}"></script>
+</body>
+</html>

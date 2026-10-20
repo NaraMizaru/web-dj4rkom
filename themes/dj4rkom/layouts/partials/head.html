@@ -1,0 +1,65 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+
+<!-- Meta Description & SEO -->
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+<meta name="author" content="{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Params.author | default "Tim Dj4rkom" }}{{ end }}">
+{{- if .Site.Params.enableRobotsTXT }}
+<meta name="robots" content="index, follow">
+{{- end }}
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{- with .Params.images }}
+<meta property="og:image" content="{{ index . 0 | absURL }}">
+{{- else }}
+{{- with .Site.Params.images }}
+<meta property="og:image" content="{{ index . 0 | absURL }}">
+{{- end }}
+{{- end }}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+{{- with .Params.images }}
+<meta name="twitter:image" content="{{ index . 0 | absURL }}">
+{{- else }}
+{{- with .Site.Params.images }}
+<meta name="twitter:image" content="{{ index . 0 | absURL }}">
+{{- end }}
+{{- end }}
+
+<!-- Favicon -->
+{{- with .Site.Params.favicon }}
+<link rel="icon" type="image/png" href="{{ . | relURL }}">
+{{- end }}
+<link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
+
+<!-- RSS -->
+{{ with .OutputFormats.Get "rss" -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
+<!-- Preconnect Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}?v={{ now.Unix }}">
+
+<!-- Prevent FOUC (Flash of Unstyled Color Theme) -->
+<script>
+  (function () {
+    try {
+      const savedTheme = localStorage.getItem('dj4rkom_theme');
+      const theme = savedTheme ? savedTheme : 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) { }
+  })();
+</script>
